@@ -1,0 +1,263 @@
+.main {
+}
+
+.hero {
+  background-color: var(--white);
+  margin-bottom: 100px;
+}
+
+.glavnaya {
+  color: var(--gray-medium, rgba(47, 43, 67, 0.5));
+  font-family: "Open Sans";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-bottom: 50px;
+}
+
+.hero-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.hero_wrapper {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  max-width: 657px;
+}
+
+.hero_wrapper--title {
+  color: var(--base-black);
+  font-family: "Open Sans";
+  font-size: 38px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: -1.14px;
+  margin-bottom: 15px;
+}
+
+.hero_wrapper--desc {
+  color: var(--base-black);
+  font-family: "Open Sans";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 160%; /* 25.6px */
+  margin-bottom: 30px;
+}
+
+.hero-btns {
+  display: inline-flex;
+  align-items: center;
+  gap: 30px;
+  margin-bottom: 41px;
+}
+
+.hero-btn {
+  display: flex;
+  padding: 16px 36px 18px 36px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  border-radius: 10px;
+  background: var(--green-btn);
+  color: var(--white, #fff);
+  text-align: center;
+  font-family: "Open Sans";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+
+.tell {
+  display: flex;
+  flex-direction: column;
+  gap: 7px;
+}
+
+.tell-title {
+  color: var(--green-btn);
+  font-family: "Open Sans";
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  border-bottom: 2px solid transparent;
+}
+
+.hero_wrapper--list {
+  display: inline-flex;
+  align-items: center;
+  align-content: center;
+  gap: 30px;
+  flex-wrap: wrap;
+}
+
+.hero_wrapper--item {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.hero_wrapper--item-title {
+  color: var(--base-black);
+  font-family: "Open Sans";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.yuridik_help {
+  background-color: var(--white);
+}
+
+.yuridik_help-container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 20px;
+  margin-bottom: 80px;
+}
+
+.yuridik_help--title {
+  color: var(--base-black);
+  font-family: Open Sans;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: -0.96px;
+}
+
+.yuridik_help--desc {
+  color: var(--base-black);
+  font-family: Open Sans;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 160%; /* 25.6px */
+}
+
+.free_counsultation {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 80px;
+}
+
+.free_counsultation--title {
+  color: var(--base-black);
+  font-family: Open Sans;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: -0.96px;
+  margin-bottom: 15px;
+}
+
+.free_counsultation--desc {
+  color: var(--base-black);
+  font-family: Open Sans;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 160%; /* 25.6px */
+  margin-bottom: 30px;
+}
+
+.free_counsultation--list {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+}
+
+.free_counsultation--item {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 20px;
+  align-items: flex-start;
+  flex: 1 0 0;
+}
+
+.free_counsultation--item svg {
+  margin-bottom: 15px;
+}
+
+.free_counsultation--item span {
+  margin-top: 15px;
+}
+
+.free_counsultation--item-title {
+  color: var(--base-black);
+  font-family: Open Sans;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.btn3 {
+  color: var(--green-btn);
+  text-align: center;
+  font-family: Open Sans;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  margin-top: auto;
+}
+
+.connect {
+  display: flex;
+  background-color: var(--silver);
+  padding: 55px;
+  border-radius: 20px;
+  background-image: url("./iphone.svg");
+  background-repeat: no-repeat;
+  background-position: right bottom;
+}
+.connect h2 {
+  color: var(--black);
+  font-family: Open Sans;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: -0.96px;
+  margin-right: 40px;
+}
+.connect-tel {
+  display: flex;
+  flex-direction: column;
+}
+.connect-tel p {
+  color: var(--gray);
+  font-family: Open Sans;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.connect a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.zakazat {
+  display: flex;
+  gap: 20px;
+  margin-bottom: 18px;
+}
+.tel-number {
+  background-color: #fff;
+  border: 1px solid rgb(109, 107, 107);
+  border-radius: 10px;
+  padding: 10px 15px 10px 0px;
+}

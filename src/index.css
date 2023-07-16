@@ -1,12 +1,15 @@
 :root {
   --green: #016f52;
   --green2: #81d2bc;
+  --green-btn: #33836e;
   --blue1: #1a77a3;
   --blue2: #1c77a4;
   --silver: #e5e5e5;
   --sky-blue: #d7e8ef;
   --black: #000000;
   --white: #ffffff;
+  --gray-borders: rgba(47, 43, 67, 0.15);
+  --base-black: #140a32;
   /* fonts */
   --main-font: "Open Sans";
 }
@@ -70,4 +73,13 @@ ul {
 
 a {
   text-decoration: none;
+}
+
+.container {
+  width: 100%;
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 30px;
+  padding-right: 30px;
 }
