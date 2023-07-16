@@ -184,6 +184,8 @@
   padding: 20px;
   align-items: flex-start;
   flex: 1 0 0;
+  border-radius: 20px;
+  border: 1px solid var(--gray-borders, rgba(47, 43, 67, 0.15));
 }
 
 .free_counsultation--item svg {
