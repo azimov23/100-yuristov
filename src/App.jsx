@@ -1,8 +1,7 @@
-import { Routes, Router, Route } from "react-router-dom";
+import { Routes, BrowserRouter as Router, Route } from "react-router-dom";
 import Header from "./components/Header/Header.jsx";
-import Footer from "./components/Footer/Footer.jsx";
-import Main from "./pages/Main.jsx";
 import "./App.css";
+import Hero from "./components/Hero/Hero.jsx";
 
 function App() {
   return (
@@ -10,9 +9,8 @@ function App() {
       <Router>
         <Header></Header>
         <Routes>
-          <Route path="/" element={<Main />} />
+          <Route path="/" element={<Hero />} />
         </Routes>
-        <Footer></Footer>
       </Router>
     </div>
   );
